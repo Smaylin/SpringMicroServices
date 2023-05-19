@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter // Genera los setters
 @Entity // Indica que es una entidad de la base de datos
 @Table(name = "users") // Indica el nombre de la tabla
-public class users {
+public class Users {
     @Id // Indica que es la llave primaria
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Indica que es autoincrementable
     private Long id;
